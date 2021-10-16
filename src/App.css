@@ -2,37 +2,47 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weatherCard{
+display: inline-block;
+width: 25%;
+padding: 20px;
+margin-bottom: 20px;
+background-color: #5779d8;
+border-radius: 16px;
+box-shadow: rgba(247, 239, 239, 0.56) 0px 22px 70px 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cardHeader{
+  color:#fff14a;
+  font-family:cursive;
+  margin-bottom:0px;
+}
+.header{
+  color: aliceblue;
+  font-family:cursive;
+  margin-bottom:0px;
+}
+.weatherIcon{
+  width: 100px;;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cardImg{
+
+  width: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.info{
+  color:#0C266F;
+  font-family:cursive;
+  font-weight: bold;
+}
+.infoHeader{
+  color:#fff14a;
+  font-family:cursive;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loading{
+  text-align: -webkit-center;
+  margin-top: 10%;
 }
